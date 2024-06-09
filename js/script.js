@@ -1,3 +1,6 @@
+
+// Задание 1
+
 function SolveOnClick()
 {
     var input_field = document.getElementById("input_name")
@@ -16,11 +19,13 @@ function SolveOnClick()
     }
 }
 
+// Задание 2
 function AddOnClick()
 {
     console.log(3+5)
 }
 
+// Задание 3
 function DivideOnClick()
 {
     var str1 = "Деление нацело: "
@@ -28,6 +33,7 @@ function DivideOnClick()
     confirm(str1 + 16 / 2 + "\n" + str2 + 16 % 2)
 }
 
+// Задание 4
 function ShowAgeOnClick()
 {
     var input_age = document.getElementById("age_num")
@@ -45,6 +51,7 @@ function ShowAgeOnClick()
     }
 }
 
+// Задание 5
 function InputWordOnClick()
 {
     var input_str = prompt("Введите любое слово")
@@ -54,6 +61,7 @@ function InputWordOnClick()
     }
 }
 
+// Задание 6
 function CheckOlderOnClick() 
 {
     var res=prompt("Введите возраст мамы и папы через пробел:")
@@ -75,6 +83,7 @@ function CheckOlderOnClick()
     }
 }
 
+// Задание 7
 function GoToConcertOnClick()
 {
     var age = prompt("Сколько тебе лет?")
@@ -95,6 +104,7 @@ function GoToConcertOnClick()
     }
 }
 
+// Задание 8
 function SquareNumOnClick()
 {
     var input_number = document.getElementById("square_num")
@@ -109,12 +119,14 @@ function SquareNumOnClick()
         }
 }
 
+// Задание 9
 function InputNameOnClick()
 {
     var name = prompt("Введите свое имя:")
     alert("Доброго здоровечка, "+name+"!")
 }
 
+// Задание 10
 function DivideByFourOnClick()
 {
     var res = prompt("Введите число, которое будем делить на 4:")
@@ -128,10 +140,12 @@ function DivideByFourOnClick()
         }
 }
 
+// Задание 11
 function CheckPer(int1, int2)
 {
     return ((int1+int2)*2)
 }
+
 
 function CheckPerimeterOnClick()
 {
@@ -144,6 +158,7 @@ function CheckPerimeterOnClick()
         }
 }
 
+// Задание 12
 function ShowNumbers_1_10_OnClick()
 {
     for(var i = 1;i<=10;i++)
@@ -152,6 +167,7 @@ function ShowNumbers_1_10_OnClick()
         }
 }
 
+// Задание 13
 function ShowNumbers_5_50_OnClick()
 {
     for(var i=5;i<=50;i+=5)
@@ -160,6 +176,7 @@ function ShowNumbers_5_50_OnClick()
         }
 }
 
+// Задание 14
 function ShowNumbers_1_10_While_OnClick()
 {
     var i = 1
@@ -170,6 +187,7 @@ function ShowNumbers_1_10_While_OnClick()
         }
 }
 
+// Задание 15
 function ShowNumbers_5_50_While_OnClick()
 {
     var i = 5
@@ -180,6 +198,7 @@ function ShowNumbers_5_50_While_OnClick()
         }
 }
 
+// Задание 16
 function YouWontKillUs()
 {
     for(i=5;i>-10;i--)
@@ -191,6 +210,7 @@ function YouWontKillUs()
         }
 }
 
+// Задание 17
 function Order()
 {
     var res=prompt("Что хочешь заказать?\nТебе доступны:\n1. Яблоко\n2. Апельсин\n3. Сок\n4. Пиво").toLowerCase()
@@ -207,6 +227,7 @@ function Order()
     }
 }
 
+// Задание 18
 function Show3rdElementOfArray()
 {
     var arr=[1,2,3,4,5]
@@ -215,12 +236,14 @@ function Show3rdElementOfArray()
 
 }
 
+// Задание 18-20
 function Array_18_20()
 {
     var arr=[1,2,3,4,5]
     alert("Третий элемент массива: "+arr[2]+"\nДлина массива: "+arr.length+"\nЭлементы массива: "+arr)
 }
 
+// Задание 21
 function FillArray()
 {
     var arr = new Array()
@@ -241,6 +264,7 @@ function FillArray()
     alert(arr)
 }
 
+// Задание 22
 function CreatePhoneBook()
 {
     var phone_book = 
@@ -252,6 +276,7 @@ function CreatePhoneBook()
     alert("ФИО: "+phone_book.name +"\nтелефон: "+phone_book.phone)
 }
 
+// Задание 23-24
 function CreateObject()
 {
     var person = new Object()
