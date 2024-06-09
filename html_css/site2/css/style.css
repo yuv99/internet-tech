@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Fira Sans';
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    
+}
+
+body {
+    background-color: rgba(255, 218, 185, 0.12);
+}
+
+.phone_number {
+    transition:0.5s;
+}
+
+.current_link {
+    color: brown;
+    font-weight: 600;
+}
+
+.phone_number:hover {
+    color: brown;
+    transition: 0.5s;
+}
+
+header {
+    padding: 30px 200px 30px 200px;
+    text-align: center;
+}
+
+header span {
+    font-weight: 500;
+}
+
+nav {
+    padding: 30px 200px 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+a:hover {
+    border-bottom: 1px solid brown;
+    color: brown;
+    
+}
+
+header, nav {
+    background-color: rgba(255, 218, 185, 0.12);
+}
+
+footer p {
+    text-align: center;
+}
+
+.logo_img {
+    width: 250px;
+    margin-top: 30px;
+}
+
+.phone_block {
+    margin-top: 20px;
+}
+
+.links {
+    text-align: center;
+}
+
+article {
+    padding: 30px 200px 30px 200px;
+}
+
+figcaption {
+    font-weight: 500;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.discount {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contacts_link {
+    text-decoration: underline;
+}
+
+.contacts_link a:hover {
+    border: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.labels *, .inputs * {
+    display: block;
+}
+
+.inputs input {
+    margin-bottom: 20px;
+}
+
+.labels label {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.send_data {
+    width: 300px;
+    margin-top: 30px;
+}
