@@ -2,3 +2,6 @@
     font-size: 30px;
 }
 
+#perimeter_num_1, #perimeter_num_2 {
+    width: 50px;
+}
