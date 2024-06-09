@@ -227,7 +227,7 @@ function Order()
     }
 }
 
-// Задание 18
+// Задание 18-20
 function Show3rdElementOfArray()
 {
     var arr=[1,2,3,4,5]
@@ -236,7 +236,6 @@ function Show3rdElementOfArray()
 
 }
 
-// Задание 18-20
 function Array_18_20()
 {
     var arr=[1,2,3,4,5]
